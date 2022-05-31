@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v9.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v9.0 Server at localhost" name="Tomcat v9.0 Server at localhost" runtime-id="Apache Tomcat v9.0" server-type="org.eclipse.jst.server.tomcat.90" server-type-id="org.eclipse.jst.server.tomcat.90" start-timeout="75" stop-timeout="15" testEnvironment="true" timestamp="10">
+    <list key="modules" value0="NewServlet::org.eclipse.jst.jee.server:NewServlet::jst.web::3.1" value1="Crud::org.eclipse.jst.jee.server:Crud::jst.web::3.1" value2="Httpser::org.eclipse.jst.jee.server:Httpser::jst.web::3.1" value3="Req::org.eclipse.jst.jee.server:Req::jst.web::3.1" value4="Jsp::org.eclipse.jst.jee.server:Jsp::jst.web::3.1" value5="Actions::org.eclipse.jst.jee.server:Actions::jst.web::3.1" value6="JspCrud::org.eclipse.jst.jee.server:JspCrud::jst.web::3.1" value7="jstldemo::org.eclipse.jst.jee.server:jstldemo::jst.web::3.1"/>
+  </server>
+</servers>

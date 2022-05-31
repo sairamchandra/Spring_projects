@@ -1,0 +1,16 @@
+package Factorypat;
+
+import java.util.Scanner;
+
+public class NetflixMain {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+		factoryProcess f1= new factoryProcess();
+		
+		Netflix n1=f1.getInstance(sc.nextLine());
+		n1.usertype();
+		n1.price();
+	}
+
+}

@@ -1,0 +1,7 @@
+package Factorypat;
+
+ interface Netflix {
+
+	 public String user;
+	 
+}

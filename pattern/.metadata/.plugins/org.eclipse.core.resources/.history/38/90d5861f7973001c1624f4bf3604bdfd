@@ -1,0 +1,17 @@
+package Factorypat;
+
+public class PremiumUser implements Netflix {
+
+	@Override
+	public String usertype() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int price() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

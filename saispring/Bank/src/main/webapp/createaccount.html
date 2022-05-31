@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create account</title>
+   
+</head>
+<body>
+    <style>
+       
+        section {
+            border: 1px solid black;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        #submit{
+            width: 20%;
+            height: 30px;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 255, 0.712);
+            color: white;
+            padding: 2px;
+margin: 0 auto;
+        }
+    #male1,#female1{
+        width: auto;
+    }
+        label {
+            font-size: 18px;
+        }
+    input{
+        width: 30%;
+    }
+        strong {
+            color: darkred;
+            font-size: 20px;
+        }
+    </style>
+<section>
+<h1 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;"><strong>Virtusa Bank</strong><br> New Accounnt Form :</h1>
+<form action="accountadd.jsp" method="post">
+<label for="name"><Strong>*</Strong> Enter Your User Full Name :</label><br>
+<input type="text" name="name" required><br>
+<label for="fathername"> <strong>*</strong> Enter Father Full Name :</label><br>
+<input type="text" name="fathername" required><br>
+<label for="mohtername"><Strong>*</Strong> Enter Your User Mother Full Name :</label><br>
+<input type="text" name="mothername" required><br>
+<label for="dob"> <strong>*</strong> Enter DOB (date/month/year) :</label><br>
+<input type="number" name="dob" required><br>
+<label for="gender"><strong>*</strong> Gender :</label>male
+<input type="radio" name="male" value="male" id="male1" />female<input id="female1" type="radio" name="female" value="female" /><br>
+<label for="email"> Enter Your User email:</label>
+<input type="email" name="email"><br>
+<label for="address">User Address :</label><br>
+<textarea  id="address" cols="50" rows="4"></textarea><br>
+<label for="pin"> enter pincode </label> <input type="number" name="pin" /><br>
+<label for="city"> Enter City  &nbsp;&nbsp; </label> <input type="text" name="city" /><br>
+<label for="state">Enter State :</label> <input type="text" name="state" /><br>
+<label for="phone"><strong>*</strong>Enter Your Phone Number :</label> <input type="number" name="phone" >
+<br><br><br>
+<input type="submit" id="submit" value="submit">
+</form>
+
+</section>
+
+</body>
+</html>

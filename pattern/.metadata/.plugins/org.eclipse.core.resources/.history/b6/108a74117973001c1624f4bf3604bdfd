@@ -1,0 +1,16 @@
+package Factorypat;
+
+public class NormalUser implements Netflix {
+
+	@Override
+	public String usertype() {
+		
+		return "I am normal user";
+	}
+
+	@Override
+	public int price() {
+		return 300;
+	}
+
+}

@@ -1,0 +1,23 @@
+package SingleTonPac;
+
+public class Singleton {
+private static Singleton unique;
+	private Singleton() {
+		System.out.println("hii");
+	}
+	public static Singleton getInstance() {
+		if(unique==null) {
+			Singleton one=new Singleton();
+		}
+		
+		return unique;
+	}
+	
+}
+class Test{
+	public static void main(String[] args) {
+		Singleton ob=Singleton.getInstance();
+		Singleton ob2=Singleton.getInstance();
+	}
+	
+}

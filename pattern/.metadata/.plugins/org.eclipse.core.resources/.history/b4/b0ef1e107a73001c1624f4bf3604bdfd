@@ -1,0 +1,15 @@
+package Factorypat;
+
+public class PremiumUser implements Netflix {
+
+	@Override
+	public String usertype() {
+		return "I am premium User";
+	}
+
+	@Override
+	public int price() {
+		return 900;
+	}
+
+}

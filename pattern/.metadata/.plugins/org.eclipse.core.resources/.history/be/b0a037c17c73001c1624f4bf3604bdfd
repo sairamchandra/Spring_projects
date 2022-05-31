@@ -1,0 +1,12 @@
+package Factorypat;
+
+public class NetflixMain {
+
+	public static void main(String[] args) {
+		factoryProcess f1= new factoryProcess();
+		Netflix n1=f1.getInstance("prmium");
+		n1.usertype();
+		n1.price();
+	}
+
+}

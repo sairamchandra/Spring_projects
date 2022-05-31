@@ -1,0 +1,8 @@
+package Factorypat;
+
+interface Netflix {
+
+	public String usertype();
+	public int price();
+
+}

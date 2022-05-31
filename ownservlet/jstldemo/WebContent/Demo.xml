@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Students>  
+<bio>  
+  <name>sai</name>  
+  <study>btech</study>  
+  <age>21</age>  
+</bio>  
+<bio>  
+  <name>bhavna</name>  
+  <study>trainer</study>  
+  <age>23</age>  
+</bio>  
+</Students>  

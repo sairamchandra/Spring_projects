@@ -1,0 +1,30 @@
+package SingleTonPac;
+
+public class Singleton {
+private static Singleton unique;
+	private Singleton() {
+		System.out.println("hii");
+	}
+	public static Singleton getInstance() {
+		if(unique==null) {
+			
+			Singleton one=new Singleton();
+		
+			}
+		
+		return unique;
+	}
+	
+}
+class Test{
+	public static void main(String[] args) {
+		Thread t1= new Thread( new Runnable() {
+			public void run() {
+				Singleton ob=Singleton.getInstance();
+			}
+		});
+		
+		
+	}
+	
+}

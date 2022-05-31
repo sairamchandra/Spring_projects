@@ -1,0 +1,39 @@
+package SingleTonPac;
+
+public class Singleton {
+
+
+	public static void main(String[] args) {
+		Thread t1= new Thread( new Runnable() {
+			public void run() {
+				Test ob=Test.getInstance();
+			}
+		});
+		Thread t2= new Thread( new Runnable() {
+			public void run() {
+				Test ob=Test.getInstance();
+			}
+		});
+		t1.start();
+		t2.start();
+
+	}
+
+
+}
+class Test{
+	private static Test unique;
+	private Test() {
+		System.out.println("hii");
+	}
+	public static  Test getInstance() {
+		if(unique==null) {
+			synchronized(Test.class) {
+				Test one=new Test();
+			}
+		}
+
+		return unique;
+	}
+
+}

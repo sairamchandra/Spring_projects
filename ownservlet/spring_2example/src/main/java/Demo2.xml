@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    
+    <context:component-scan base-package="com.constructor" />
+    <!-- <bean id="html" class="com.constructor.Html">
+    <constructor-arg index="0" value="i like  html"></constructor-arg>
+    <constructor-arg index="1" value="css also same"></constructor-arg>
+    </bean> -->
+       <bean id="html" class="com.constructor.Html">
+   <property name="html" value="autowired html"></property>
+   <property name="css" value="autowired css"></property>
+    </bean> 
+      <bean id="Js" class="com.constructor.Javascript">
+    <constructor-arg index="0" value="hello guys i am js"></constructor-arg>
+    <constructor-arg index="1" value="constuctor injection"></constructor-arg>
+    </bean> 
+    </beans>

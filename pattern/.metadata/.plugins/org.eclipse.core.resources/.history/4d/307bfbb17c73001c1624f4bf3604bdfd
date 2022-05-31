@@ -1,0 +1,14 @@
+package Factorypat;
+
+public class factoryProcess {
+public Netflix getInstance(String usertype) {
+	if(usertype.equals("Normal")) {
+		return new NormalUser();
+	}
+	else if(usertype.equals("premium"))
+	return new PremiumUser() ;
+	else 
+		return new Error();
+	
+}
+}

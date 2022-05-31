@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="example"/>
+<aop-project name="Bank"/>
+<aop-project name="Onlinebanking"/>
+<aop-project name="Springsec"/>
+<aop-project name="Demo1"/>
+<aop-project name="springsecurity"/>
+<aop-project name="demo"/>
+<aop-project name="Springboot1"/>
+<aop-project name="Springbootwebjdbc"/>
+<aop-project name="demoboot"/>
+<aop-project name="SpringBootDemoCust"/>
+<aop-project name="SaiSpringMvc"/>
+<aop-project name="myspringmvc"/>
+</aop-reference-model>

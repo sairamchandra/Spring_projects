@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+
+	<bean id="Emp1" class="Anyname.Employee">
+		<property name="id" value="1"></property>
+		<property name="ename" value="sai"></property>
+		<property name="email" value="dspsai65@gmail.com"></property>
+		<property name="Department" ref="dept1"></property>
+	</bean>
+	<bean id="dept1" class="Anyname.Department">
+		<property name="deptname" value="javafullstack"></property>
+		<property name="depthead" value="raja"></property>
+		<property name="deptid" value="4"></property>
+
+	</bean>
+
+	<bean id="Emp2" class="Anyname.Employee">
+		<property name="id" value="2"></property>
+		<property name="ename" value="bhavna"></property>
+		<property name="email" value="bhavna@gmail.com"></property>
+		<property name="Department" ref="dept1"></property>
+	</bean>
+	<bean id="Emp3" class="Anyname.Employee">
+		<property name="id" value="3"></property>
+		<property name="ename" value="pallavi"></property>
+		<property name="email" value="pallavi@gmail.com"></property>
+		<property name="Department" ref="dept1"></property>
+	</bean>
+	<bean id="Emp4" class="Anyname.Employee">
+		<property name="id" value="4"></property>
+		<property name="ename" value="harsha"></property>
+		<property name="email" value="harsha@gmail.com"></property>
+		<property name="Department" ref="dept1"></property>
+	</bean>
+	<bean id="Emp5" class="Anyname.Employee">
+		<property name="id" value="5"></property>
+		<property name="ename" value="masoodvali"></property>
+		<property name="email" value="masoodvali@gmail.com"></property>
+		<property name="Department" ref="dept1"></property>
+	</bean>
+	<bean id="list" class="Anyname.EMployees">
+		<constructor-arg value="all the employees"></constructor-arg>
+		<constructor-arg>
+			<list>
+				<ref bean="Emp1" />
+				<ref bean="Emp2" />
+				<ref bean="Emp3" />
+				<ref bean="Emp4" />
+				<ref bean="Emp5" />
+			</list>
+		</constructor-arg>
+	</bean>
+
+</beans>

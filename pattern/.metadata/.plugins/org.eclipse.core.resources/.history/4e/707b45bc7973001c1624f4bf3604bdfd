@@ -1,0 +1,10 @@
+package Factorypat;
+
+public class NetflixMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

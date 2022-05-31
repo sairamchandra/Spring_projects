@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+
+
+
+<h1 style="text-align:center">Add New Employee</h1>  
+<form action="SaveServlet" method="post">  
+<table>  
+<tr><td>Name:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>age:</td><td><input type="number" name="age"/></td></tr>  
+<tr><td>Email:</td><td><input type="email" name="email"/></td></tr>  
+<tr><td>place:</td><td>  
+<select name="place" style="width:150px">  
+<option>karnataka</option>  
+<option>AP</option>  
+<option>TS</option>  
+<option>Other</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Employee"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewServlet">view employees</a>  
+  
+
+</body>
+</html>

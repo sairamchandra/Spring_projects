@@ -1,0 +1,50 @@
+
+Jun 27, 2021 20:40:28.546 NEW SESSION
+Jun 27, 2021 20:40:28.546 [7512:9084:0627/204028.541:ERROR:device_event_log_impl.cc(214)] [20:40:28.540] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 27, 2021 20:40:28.549 [7512:9084:0627/204028.541:ERROR:device_event_log_impl.cc(214)] [20:40:28.541] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 27, 2021 21:06:28.161 [7512:8068:0627/210628.160:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:06:30.215 [7512:8068:0627/210630.215:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 27, 2021 21:06:32.186 [7512:9084:0627/210632.185:ERROR:device_event_log_impl.cc(214)] [21:06:32.185] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jun 27, 2021 21:06:39.409 [7512:8068:0627/210639.408:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:06:42.325 [7512:8068:0627/210642.324:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:13:28.876 [7512:8068:0627/211328.875:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:13:41.629 [7512:8068:0627/211341.629:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+Jun 27, 2021 21:13:50.384 [7512:8068:0627/211350.383:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:13:52.959 [7512:8068:0627/211352.958:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:13:55.876 [7512:8068:0627/211355.876:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:14:08.834 [7512:8068:0627/211408.833:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:14:19.517 [7512:8068:0627/211419.517:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+Jun 27, 2021 21:16:13.488 [7512:8068:0627/211613.488:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -7
+
+Jun 27, 2021 23:25:36.694 NEW SESSION
+Jun 27, 2021 23:25:36.694 [11808:2180:0627/232536.689:ERROR:device_event_log_impl.cc(214)] [23:25:36.689] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jun 27, 2021 23:25:36.697 [11808:2180:0627/232536.690:ERROR:device_event_log_impl.cc(214)] [23:25:36.690] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Jul 18, 2021 16:56:04.847 NEW SESSION
+Jul 18, 2021 16:56:04.847 [9056:10660:0718/165604.845:ERROR:device_event_log_impl.cc(214)] [16:56:04.844] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 18, 2021 16:56:04.849 [9056:10660:0718/165604.848:ERROR:device_event_log_impl.cc(214)] [16:56:04.848] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Jul 19, 2021 18:56:34.95 NEW SESSION
+Jul 19, 2021 18:56:34.96 [1336:5944:0719/185634.091:ERROR:device_event_log_impl.cc(214)] [18:56:34.092] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 19, 2021 18:56:34.97 [1336:5944:0719/185634.096:ERROR:device_event_log_impl.cc(214)] [18:56:34.096] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Jul 21, 2021 17:27:58.230 NEW SESSION
+Jul 21, 2021 17:27:58.231 [7416:15736:0721/172758.221:ERROR:device_event_log_impl.cc(214)] [17:27:58.220] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 21, 2021 17:27:58.235 [7416:15736:0721/172758.226:ERROR:device_event_log_impl.cc(214)] [17:27:58.226] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+
+Aug 07, 2021 18:51:31.972 NEW SESSION
+Aug 07, 2021 18:51:31.972 [22700:14864:0807/185131.969:ERROR:device_event_log_impl.cc(214)] [18:51:31.969] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 07, 2021 18:51:31.974 [22700:14864:0807/185131.969:ERROR:device_event_log_impl.cc(214)] [18:51:31.969] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Aug 07, 2021 18:51:56.770 [22700:15680:0807/185156.770:ERROR:database.cc(1711)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+Aug 07, 2021 19:36:37.608 [22700:17448:0807/193637.607:ERROR:database.cc(1711)] Passwords sqlite error 2067, errno 0: UNIQUE constraint failed: logins.origin_url, logins.username_element, logins.username_value, logins.password_element, logins.signon_realm, sql: INSERT INTO logins (origin_url, action_url, username_element, username_value, password_element, password_value, submit_element, signon_realm, date_created, blacklisted_by_user, scheme, password_type, times_used, form_data, date_synced, display_name, icon_url, federation_url, skip_zero_click, generation_upload_status, possible_username_pairs, id, date_last_used, moving_blocked_for) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+
+May 24, 2022 09:22:34.227 NEW SESSION
+May 24, 2022 09:22:34.227 [15472:19672:0524/092234.198:ERROR:device_event_log_impl.cc(214)] [09:22:34.198] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 24, 2022 09:22:34.228 [15472:19672:0524/092234.198:ERROR:device_event_log_impl.cc(214)] [09:22:34.198] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 24, 2022 09:23:31.966 [15472:4144:0524/092331.966:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater
+May 24, 2022 09:25:31.614 [15472:19672:0524/092531.613:ERROR:device_event_log_impl.cc(214)] [09:25:31.614] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+May 31, 2022 14:49:54.432 NEW SESSION
+May 31, 2022 14:49:54.432 [22620:7228:0531/144954.429:ERROR:device_event_log_impl.cc(214)] [14:49:54.428] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 31, 2022 14:49:54.433 [22620:7228:0531/144954.429:ERROR:device_event_log_impl.cc(214)] [14:49:54.428] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 31, 2022 14:50:51.809 [22620:20776:0531/145051.808:ERROR:util.cc(126)] Can't create base directory: C:\Program Files\Google\GoogleUpdater

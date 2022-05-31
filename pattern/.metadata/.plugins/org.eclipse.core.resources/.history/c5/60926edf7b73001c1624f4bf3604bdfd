@@ -1,0 +1,17 @@
+package Factorypat;
+
+public class Error implements Netflix {
+
+	@Override
+	public void usertype() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void price() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

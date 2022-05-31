@@ -1,0 +1,31 @@
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+
+		<table>
+			<thead>
+
+				<tr>
+					<th>custno</th>
+					<th>cust name</th>
+					<th>country</th>
+				</tr>
+			</thead>
+			<tbody>
+
+				<tr th:each="Custmor:${list}">
+					<td th:text="${Custmor.custNo}"></td>
+					<td th:text="${Custmor.custNo}"></td>
+					<td th:text="${Custmor.custNo}"></td>
+
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
